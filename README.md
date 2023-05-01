@@ -1,5 +1,5 @@
 # Deal-dazzle
-==============================================================================
+==========================================================================
 ## Description
 Deal Dazzle is an e-commerce back end platform that uses Mysql2 and sequelize. 
 ## Table of contents
