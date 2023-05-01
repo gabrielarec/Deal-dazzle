@@ -1,7 +1,7 @@
 {
-  "name": "Deal-dazzle",
+  "name": "module-13-challenge-orm",
   "version": "1.0.0",
-  "description": "Deal-dazzle",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/deal-dazzle.git"
+    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
   },
   "keywords": [],
   "author": "",

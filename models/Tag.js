@@ -5,7 +5,6 @@ const sequelize = require('../config/connection.js');
 class Tag extends Model {}
 
 Tag.init(
-  // define columns
   {
     id: {
       type: DataTypes.INTEGER,
@@ -15,7 +14,7 @@ Tag.init(
     },
     tag_name: {
       type: DataTypes.STRING,
-      // allowNull: false
+      allowNull: false
     }
   },
   {
@@ -23,8 +22,9 @@ Tag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'tag',
-  }
+    modelName: 'tag',
+  }
 );
+
 
 module.exports = Tag;
